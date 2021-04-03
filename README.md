@@ -42,7 +42,14 @@ would be previous and after the element given when it was inserted.</p>
     //incorrect ordering of arguments
     softwareEngineers.put(true, "SeunSuberu"); // throws error
 ```
-
+<h5>Removing key-value pair:</h5>
+```
+    //regular deletion that removes the {"SeunSuberu" : true} pairing
+    softwareEngineers.remove("SeunSuberu");
+    
+    //incorrect ordering of arguments
+    softwareEngineers.put(true, "SeunSuberu"); // throws error
+```
 <p>Retrieving value from key input</p>
 
 ```
@@ -98,12 +105,4 @@ would be previous and after the element given when it was inserted.</p>
         //RETURNS SET OF ELEMENTS IN INSERTION ORDER
         return entrySet;
     }
-```
-<h5>Removing key-value pair:</h5>
-```
-    //regular deletion that removes the {"SeunSuberu" : true} pairing
-    softwareEngineers.remove("SeunSuberu");
-    
-    //incorrect ordering of arguments
-    softwareEngineers.put(true, "SeunSuberu"); // throws error
 ```
