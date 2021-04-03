@@ -1,5 +1,4 @@
-# LinkedHashMapJava
-<h1>Code tutorial to LinkedHashMaps in java</h1>
+<h1>LinkedHashMaps in Java</h1>
 <h4>by Seun Suberu</h4>
 <h5>Description</h5>
 <p>The LinkedHashMap class in Java maintains the functionality
@@ -81,8 +80,7 @@ would be previous and after the element given when it was inserted.</p>
     }
 ```
 
-<h5>The internal mechanism for iterating over the LinkedHashMap</h5>
-<p></p>
+<p>The internal mechanism for iterating over the LinkedHashMap</p>
 
 ```
     //class attributes
