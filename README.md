@@ -42,6 +42,7 @@ would be previous and after the element given when it was inserted.</p>
     //incorrect ordering of arguments
     softwareEngineers.put(true, "SeunSuberu"); // throws error
 ```
+
 <h5>Removing key-value pair:</h5>
 ```
     //regular deletion that removes the {"SeunSuberu" : true} pairing
@@ -50,6 +51,7 @@ would be previous and after the element given when it was inserted.</p>
     //incorrect ordering of arguments
     softwareEngineers.put(true, "SeunSuberu"); // throws error
 ```
+
 <p>Retrieving value from key input</p>
 
 ```
@@ -78,6 +80,7 @@ would be previous and after the element given when it was inserted.</p>
         System.out.println(key + " : " + value);
     }
 ```
+
 <h5>The internal mechanism for iterating over the LinkedHashMap</h5>
 <p></p>
 
