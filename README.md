@@ -42,7 +42,8 @@ would be previous and after the element given when it was inserted.</p>
     softwareEngineers.put(true, "SeunSuberu"); // throws error
 ```
 
-<h5>Removing key-value pair:</h5>
+<p>Removing key-value pair:</p>
+
 ```
     //regular deletion that removes the {"SeunSuberu" : true} pairing
     softwareEngineers.remove("SeunSuberu");
